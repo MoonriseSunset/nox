@@ -12,10 +12,10 @@ export default defineConfig({
       title: "Nox",
 			customCss:[
 				'./src/styles/starlight.css',
-				'@fontsource-variable/inter',
-				'@fontsource-variable/sometype-mono',
-				'@fontsource-variable/noto-sans',
-				'@fontsource/atkinson-hyperlegible',
+
+				'@fontsource/barlow',
+				'@fontsource/fira-mono',
+				'@fontsource-variable/dm-sans'
 			],
 			social: {
 				github: 'https://github.com/MoonriseSunset',
