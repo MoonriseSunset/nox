@@ -1,0 +1,175 @@
+/* Dark mode colors. */
+
+:root {
+
+	/* Nord */
+
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --nord4: #d8dee9;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --nord9: #81a1c1;
+    --nord10: #5e81ac;
+    --nord11: #bf616a;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --nord15: #b48ead;
+
+	/* Everforest */
+
+	--EF-bg_dim: #232A2E;
+	--EF-bg0: #2e343b;
+	--EF-bg1: #3b4248;
+	--EF-bg2: #434c5e;
+	--EF-bg3: #4c566a;
+	--EF-bg4: #d8dee9;
+	--EF-bg5: #56635f;
+
+	--EF-bg_visual: #543A48;
+	--EF-bg_red: #514045;
+	--EF-bg_green: #425047;
+	--EF-bg_blue: #3A515D;
+	--EF-bg_yellow: #4D4C43;
+
+	--EF-fg: #D3C6AA;
+	--EF-red: #E67E80;
+	--EF-orange: #E69875;
+	--EF-yellow: #DBBC7F;
+	--EF-green: #A7C080;
+	--EF-aqua: #83C092;
+	--EF-blue: #7FBBB3;
+	--EF-purple: #D699B6;
+
+	--EF-grey0: #7A8478;
+	--EF-grey1: #859289;
+	--EF-grey2: #9DA9A0;
+
+	--EF-statusline1: #A7C080;
+	--EF-statusline2: #D3C6AA;
+	--EF-statusline3: #E67E80;
+
+
+	/* Custom */
+
+	--pureblack: #000000;
+    --abyss: #000011;
+    --malachite: #001100;
+    --basalt: #111111;
+
+    --burntorange: #972e0e;
+
+    --ash: #222222;
+    --twilight: #110033;
+
+    /* Starlight Specific */
+
+	--sl-color-accent-low: var(--abyss);
+	--sl-color-accent: var(--nord15);
+	--sl-color-accent-high: var(--EF-green);
+	--sl-color-white: var(--nord6);
+	--sl-color-gray-1: var(--EF-blue);
+	--sl-color-gray-2: var(--EF-fg);
+	--sl-color-gray-3: var(--EF-grey2);
+	--sl-color-gray-4: var(--nord14);
+	--sl-color-gray-5: var(--EF-aqua);
+	--sl-color-gray-6: var(--EF-bg_dim);
+	--sl-color-black: var(--EF-bg0);
+
+	--sl-color-hairline:var(--EF-bg4);
+
+	--sl-font: 'Atkinson Hyperlegible', sans-serif;
+	/*font-family: */
+
+	h2{
+		color: var(--EF-statusline1);
+	}
+
+	h3{
+		color: var(--EF-statusline2);
+	}
+
+	em{
+		color: var(--EF-blue);
+
+		strong{
+			color: var(--EF-purple);
+		}
+	}
+
+	strong{
+		color: var(--EF-red);
+	}
+
+	figcaption{
+		text-decoration: overline;
+		color: var(--EF-yellow);
+	}
+	#caption{
+		margin-top: 0.25rem;
+	}
+}
+/* Light mode colors. */
+:root[data-theme='light'] {
+	--sl-color-accent-low: var(--abyss);
+	--sl-color-accent: var(--nord10);
+	--sl-color-accent-high: var(--nord10);
+	--sl-color-white: var(--nord1);
+	--sl-color-gray-1: var(--nord13);
+	--sl-color-gray-2: var(--nord3);
+	--sl-color-gray-3: var(--abyss);
+	--sl-color-gray-4: var(--nord14);
+	--sl-color-gray-5: var(--burntorange);
+	--sl-color-gray-6: var(--nord6);
+	--sl-color-gray-7: var(--nord3);
+	--sl-color-black: white;
+
+	--sl-color-bg-nav: var(--nord0);
+
+	h2{
+		color: var(--nord8);
+	}
+
+	h3{
+		color: var(--nord10);
+	}
+
+	em{
+		color: var(--burntorange);
+
+		strong{
+			color: var(--nord15);
+		}
+	}
+
+	strong{
+		color: var(--nord3);
+	}
+
+	figcaption{
+		text-decoration: overline;
+		color: var(--nord11);
+	}
+	#caption{
+		margin-top: 0.25rem;
+	}
+}
+
+h1,.sl-link-card,.tagline{
+	/*font-family: 'Atkinson Hyperlegible', sans-serif;*/
+	font-family: 'Barlow', sans-serif;
+}
+
+h2, h3, h4, h5, h6{
+	font-family: 'Noto Sans Variable', sans-serif;
+}
+
+p,li{
+	font-size:1.125rem
+}
+

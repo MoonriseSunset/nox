@@ -1,0 +1,24 @@
+---
+title: Home
+description: Start Here! Welcome to my site.
+template: 'splash'
+next: false
+prev: false
+banner:
+  content: "Yo! this site's very WIP, check back later :)"
+hero:
+  title: "Links and Socials"
+  tagline: "look ma, a self-hosted socials page!"
+---
+import { Card, LinkButton, LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+  <LinkCard title="Github" href="" description="for my other coding projects"/ >
+  <LinkCard title="Twitter" href="" />
+  <LinkCard title="Bsky" href="" />
+  <LinkCard title="WetDryWorld" href="" description="(Under construction)"/>
+  <LinkCard title="Discord" href="" description="ask"/>  
+</CardGrid>
+---
+
+<LinkButton href="../" variant="secondary">go back</LinkButton>
