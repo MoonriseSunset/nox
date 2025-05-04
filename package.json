@@ -10,7 +10,7 @@
     "gitRefresh": "git rm -r --cached . && git add ."
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.32.5",
+    "@astrojs/starlight": "^0.34.2",
     "@fontsource-variable/dm-sans": "^5.2.5",
     "@fontsource/barlow": "^5.2.5",
     "@fontsource/fira-mono": "^5.2.5",
