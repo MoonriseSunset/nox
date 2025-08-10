@@ -20,9 +20,9 @@ export default defineConfig({
 				'@fontsource/fira-mono',
 				'@fontsource-variable/dm-sans'
 			],
-			social: {
-				github: 'https://github.com/MoonriseSunset',
-			},
+			social: [
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/MoonriseSunset' },
+			],
 			favicon: './assets/starlightfavicon.png',
       		logo: {src:'./src/assets/Logo.png',},
 			sidebar: [
